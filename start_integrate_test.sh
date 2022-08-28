@@ -16,22 +16,22 @@
 #
 
 # game
-#array+=("game/go-server-game")
-#array+=("game/go-server-gate")
-#
-## config-api
-#array=("config-api/rpc/triple")
-#array+=("config-api/configcenter/nacos")
-#array+=("config-api/configcenter/zookeeper")
-#
-## error
-#array+=("error/triple/hessian2")
-#array+=("error/triple/pb")
-#
-## metrics
-#array+=("metrics")
+array+=("game/go-server-game")
+array+=("game/go-server-gate")
 
-# helloworld
+# config-api
+array=("config-api/rpc/triple")
+array+=("config-api/configcenter/nacos")
+array+=("config-api/configcenter/zookeeper")
+
+# error
+array+=("error/triple/hessian2")
+array+=("error/triple/pb")
+
+# metrics
+array+=("metrics")
+
+ helloworld
 array+=("helloworld")
 
 # direct
