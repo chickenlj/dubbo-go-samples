@@ -2,9 +2,9 @@ dubbo:
   application:
     name: server-demo
   registries:
-    demoZK:
-      protocol: zookeeper
-      address: N/A
+    demoIstio:
+      protocol: xds
+      address: istiod.istio-system.svc.cluster.local:15012
   protocols:
     triple:
       name: tri

@@ -2,10 +2,10 @@ dubbo:
   application:
     name: client-demo
   registries:
-    demoZK:
-      protocol: zookeeper
+    demoIstio:
+      protocol: xds
       timeout: 3s
-      address: 127.0.0.1:2181
+      address: istiod.istio-system.svc.cluster.local:15012
   consumer:
     mesh-enable: true
     references:

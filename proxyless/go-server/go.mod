@@ -1,4 +1,4 @@
-module github.com/apache/dubbo-go-samples-mesh-server
+module github.com/apache/dubbo-go-samples-xds-server
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.3-0.20220730033103-013f0b2804ce
