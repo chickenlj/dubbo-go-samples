@@ -23,7 +23,7 @@ services:
       interval: 5s
 
   polaris:
-    image: polarismesh/polaris-standalone:latest
+    image: polarismesh/polaris-standalone:v1.17.2
     container_name: polaris-standalone
     privileged: true
     ports:
