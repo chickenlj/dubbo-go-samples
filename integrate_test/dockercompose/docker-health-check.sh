@@ -1,3 +1,4 @@
+set -x
 curl 127.0.0.1:2181
 res=$?
 passCode=52
